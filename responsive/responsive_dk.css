@@ -1,0 +1,51 @@
+@media only screen and (max-width:1025px){
+    .wrapper {
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .wrapper {
+       flex-direction: column-reverse;
+    }
+
+    .left,
+    .right {
+        height: fit-content;
+    }
+
+    .go_back {
+        width: 100px;
+        justify-content: flex-start;
+    }
+}
+    .right,  
+    .left,
+    .content{
+        width: 90%;
+    }
+
+    .right img {
+        margin-top: 50px;
+        background-size: contain;
+        border-radius: 10px;
+    }
+
+    .wrapper {
+        position: relative;
+    }
+
+    .go_back {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .content .item > input {
+        width: 95%;
+    }
+
+.content form {
+    width: 90%;
+    gap: 24px;
+}
